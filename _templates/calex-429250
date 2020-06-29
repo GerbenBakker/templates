@@ -12,3 +12,6 @@ category: light
 type: Light
 standard: global
 ---
+
+My version did not have the individual leds connected to GPIO12 and GPIO15. The PMW on GPIO13 and GPIO14 work as in the template. 
+For proper functioning of the warm and cool white, I needed to use "SetOption92 1" 
